@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Disease"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:text="COrona"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:text="365"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hosp"
+        android:text="365"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/severe"
+        android:text="365"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lat"
+        android:text="365"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longi"
+        android:text="365"
+        android:layout_marginStart="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#000"
+        />
+
+</LinearLayout>

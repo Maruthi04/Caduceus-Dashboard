@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">DashBoard</string>
+
+
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered in Firebase now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="str_login">Login</string>
+    <string name="str_account">Account</string>
+    <string name="account_empty">Account can not be empty</string>
+    <string name="account_too_long">Account can not exceed 64 characters</string>
+    <string name="account_starts_with_space">Account can not starts with space</string>
+    <string name="account_literal_null">Account can not be \"null\"</string>
+    <string name="login_failed">Login failed</string>
+
+    <string name="title_peer_msg">Peer to peer message</string>
+    <string name="title_channel_message">Channel message</string>
+    <string name="hint_friend">Friends name</string>
+    <string name="hint_channel">Channel name</string>
+    <string name="hint_enable_offline_message">Enable offline message</string>
+    <string name="account_cannot_be_yourself">Account can not be yourself</string>
+    <string name="channel_name_empty">Channel name can not be empty</string>
+    <string name="channel_name_too_long">Channel name can not exceed 64 characters</string>
+    <string name="channel_name_starts_with_space">Channel name can not start with space</string>
+    <string name="channel_name_literal_null">Channel name can not be \"null\"</string>
+    <string name="btn_chat">Chat</string>
+    <string name="btn_join">Join</string>
+
+    <string name="channel_title" translatable="false">%s(%d)</string>
+    <string name="join_channel_failed">Join channel failed</string>
+    <string name="single_input">Single line input</string>\
+    <string name="str_send">Send</string>
+    <string name="send_msg_failed">Failed to send message</string>
+    <string name="peer_offline">Peer is offline</string>
+    <string name="message_cached">Message cached by server</string>
+    <string name="reconnecting">Network reconnecting ...</string>
+    <string name="account_offline">Connection lost</string>
+</resources>

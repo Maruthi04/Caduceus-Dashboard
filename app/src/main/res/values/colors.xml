@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E44377</color>
+    <color name="colorPrimaryDark">#E44377</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="blue">#4099FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="sinch_purple">#63029d</color>
+    <color name="sinch_purple_darker">#ff380258</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+    <color name="u_blue_light">#4A90E2</color>
+    <color name="u_blue">#4A90E2</color>
+    <color name="u_blue_darker">#ff31649a</color>
+    <color name="twinder_purple_2">#D01FA4</color>
+    <color name="bold_username">#4D4D4D</color>
+    <color name="faint_real_name">#999999</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="main_color_gray">#7d7d7d</color>
+
+    <color name="default_chat_message_background_color_rcv">@color/white</color>
+    <color name="default_chat_message_background_color_send">@color/white</color>
+
+    <color name="default_bubble_color_rcv">@color/black</color>
+    <color name="default_bubble_color_send">@color/white</color>
+
+    <color name="default_tstamp_color_rcv">@color/off_white</color>
+    <color name="default_tstamp_color_send">@color/main_color_gray</color>
+
+    <color name="default_message_color_rcv">@color/white</color>
+    <color name="default_message_color_send">@color/black</color>
+
+
+
+
+
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="white_ru">#D2E9FF</color>
+
+    <color name="green">#4ACC60</color>
+    <color name="pink">#6A2290</color>
+    <color name="blue_light">#53687D</color>
+    <color name="yellow">#FF7F24</color>
+    <color name="pink_dark">#4B0082</color>
+
+    <!-- Chat Activity -->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+
+
+</resources>

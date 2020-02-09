@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "961954056359",
+    "firebase_url": "https://hospi-313bb.firebaseio.com",
+    "project_id": "hospi-313bb",
+    "storage_bucket": "hospi-313bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961954056359:android:5a93eeca21e3d30be73382",
+        "android_client_info": {
+          "package_name": "com.example.dashboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961954056359-p5cn3is5sgbtu7tbb52r3aue71oscll7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dashboard",
+            "certificate_hash": "f22ac2b23c065ba24609f04d842ffe5fa60f971b"
+          }
+        },
+        {
+          "client_id": "961954056359-u5gnfm34pm52q40ab9jee26vmtqk1ai8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp1YVn6I3uf6m9M88Pp39haXAWhMWru_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "961954056359-u5gnfm34pm52q40ab9jee26vmtqk1ai8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

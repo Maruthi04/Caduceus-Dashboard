@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#fff"
+
+    android:layout_height="match_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+
+    android:background="#fff"
+
+    android:layout_height="match_parent"
+    tools:context=".FormFilling">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:onClick="backbutton"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_navigate_before_black_24dp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/sample_gif"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/doctoricon"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:foregroundGravity="center" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#fff"
+            android:layout_marginTop="10dp"
+            android:onClick="logout"
+            android:src="@drawable/logout"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_gravity="center"
+        android:text="Select Profile Type"
+        android:background="@drawable/mainsearchbarbg"
+        android:layout_weight="0.3"
+        android:textColor="#0D47A1"
+        android:textSize="20sp"
+        />
+
+    <EditText
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginStart="30dp"
+       android:padding="10dp"
+       android:id="@+id/name"
+       android:layout_marginTop="40dp"
+       android:background="@drawable/mainsearchbarbg"
+       android:layout_marginEnd="30dp"
+       android:hint="Enter the Doctor Name"
+       android:gravity="center"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+android:id="@+id/hospitalname"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter the Hospital Name"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:id="@+id/disease"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter the Disease Name"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:id="@+id/height"
+
+        android:hint="Height"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:id="@+id/weight"
+
+        android:hint="Weight"
+        android:gravity="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:id="@+id/age"
+        android:layout_marginEnd="30dp"
+        android:hint="Age"
+        android:gravity="center"
+        />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/mainsearchbarbg"
+        android:padding="10dp"
+        android:id="@+id/bloodgroup"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter the Blood Group of the victim"
+        android:gravity="center"
+        />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/radiogroup"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+android:background="@drawable/severe"
+            android:textColor="#fff"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:text="Severe" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:textColor="#fff"
+
+            android:background="@drawable/verysevere"
+            android:layout_weight="1"
+            android:text="Very Severe" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/dangerous"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:text="Dangerous" />
+    </RadioGroup>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        app:strokeColor="#000"
+        android:shadowRadius="30"
+
+        android:background="@drawable/presstogetlocatoin"
+        android:id="@+id/getloc"
+        android:text="Press To Get The Location"/>
+<ImageButton
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="30dp"
+    app:strokeColor="#000"
+    android:background="@drawable/submitresponse"
+    android:shadowRadius="30"
+android:id="@+id/button2"
+    android:layout_marginBottom="20dp"
+    app:cornerRadius="10dp"
+    android:text="Submit the Application"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        app:strokeColor="#000"
+        android:background="@drawable/butonbackgroundoutline"
+        android:shadowRadius="30"
+        android:id="@+id/button3"
+        android:visibility="gone"
+        android:layout_marginBottom="20dp"
+        app:cornerRadius="10dp"
+        android:text="show the information"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/listview1"/>
+</LinearLayout>
+</ScrollView>
